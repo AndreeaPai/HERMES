@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HERMES.BOL", "HERMES.BOL\HERMES.BOL.csproj", "{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HERMES.DAL", "..\..\Hermes.DAL\HERMES.DAL.csproj", "{9BCC38A4-EFF2-46D3-B710-2A4065780DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HERMES.ConsoleUI", "..\..\HermesConsoleUI-Project\Hermes.ConsoleUI\HERMES.ConsoleUI.csproj", "{FD033A05-72AC-435C-B8E5-05288928A520}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5} = {BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}
+		{9BCC38A4-EFF2-46D3-B710-2A4065780DCC} = {9BCC38A4-EFF2-46D3-B710-2A4065780DCC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB0515B-02C5-40E5-8B8E-49A78E4C29B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCC38A4-EFF2-46D3-B710-2A4065780DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCC38A4-EFF2-46D3-B710-2A4065780DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCC38A4-EFF2-46D3-B710-2A4065780DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCC38A4-EFF2-46D3-B710-2A4065780DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD033A05-72AC-435C-B8E5-05288928A520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD033A05-72AC-435C-B8E5-05288928A520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD033A05-72AC-435C-B8E5-05288928A520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD033A05-72AC-435C-B8E5-05288928A520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EAA622A-BFBC-4CED-81C7-AB59B89DE38A}
+	EndGlobalSection
+EndGlobal
